@@ -316,6 +316,11 @@ ul {
   margin-right: 0px;
 }
 
+.position-section-3 > .li-width img {
+  display: block;
+  margin: auto;
+}
+
 .section-3-h2 {
   font-weight: 700;
   font-size: 36px;
