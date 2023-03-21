@@ -156,7 +156,6 @@ ul {
 /* HERO */
 
 .hero {
-  width: 1440px;
   background: #2e2f42;
   margin-left: auto;
   margin-right: auto;
@@ -184,7 +183,7 @@ ul {
   font-size: 56px;
   line-height: 1.08;
   text-align: center;
-  width: 495px;
+  width: 496px;
 }
 
 .position-button .hero-h1 {
@@ -296,7 +295,6 @@ ul {
 .section-3 {
   display: flex;
   background-color: #f4f4fd;
-  width: 1440px;
   padding-top: 120px;
   padding-bottom: 120px;
   margin-left: auto;
@@ -325,6 +323,13 @@ ul {
   margin: auto;
 }
 
+.section-3-content {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .section-3-h2 {
   font-weight: 700;
   font-size: 36px;
@@ -342,7 +347,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-text-color-primary);
-  margin-top: 32px;
   text-align: center;
 }
 
@@ -353,7 +357,6 @@ ul {
   letter-spacing: 0.02em;
   color: var(--title-text-color-secondary);
   margin-top: 8px;
-  margin-bottom: 32px;
   text-align: center;
 }
 
@@ -361,7 +364,6 @@ ul {
 
 .footer {
   background: #2e2f42;
-  width: 1440px;
   padding-top: 100px;
   padding-bottom: 100px;
   margin-left: auto;
@@ -401,8 +403,15 @@ ul {
 
 /* PORTFOLIO */
 
+/* SECTION PORTFOLIO */
 /* MAIN MENU */
 
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .main-nav.border {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -416,7 +425,6 @@ ul {
 .portfolio-btn.position {
   display: flex;
   justify-content: center;
-  padding-top: 96px;
 }
 
 .portfolio-btn > .li-width {
@@ -433,13 +441,11 @@ ul {
   display: flex;
   flex-wrap: wrap;
   padding-top: 72px;
-  padding-bottom: 120px;
 }
 
 .portfolio-product-list > .li-width {
-  margin-right: 21px;
+  margin-right: 24px;
   margin-bottom: 48px;
-  border: 1px solid #e7e9fc;
 }
 
 .portfolio-product-list > .li-width:nth-child(3n + 3) {
@@ -456,6 +462,7 @@ ul {
 }
 .portfolio-product-list-content {
   padding: 32px 0;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-product-list-h2 {
@@ -464,8 +471,9 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-left: 16px;
-  margin-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+
 }
 
 .portfolio-product-list-p {
@@ -474,5 +482,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-left: 16px;
+   padding-left: 16px;
+  padding-right: 16px;
 }
